@@ -1,10 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Subvenia//Ayudas publicas//ES
+PRODID:-//Fidera//Ayudas publicas//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:904540@subvenia
+UID:904540@fidera
 DTSTAMP:20261130T000000Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
@@ -15,7 +15,7 @@ DESCRIPTION:Importe real de las cuotas pagadas durante la baja\, máx. 1.20
  mbre de 2026\, o hasta que se acabe el dinero (antes\, si se agota la bols
  a)\nCómo pedirla: https://www.impefe.es/Impefe/subvenciones/\nFicha ofici
  al (Fuente: BDNS): https://www.infosubvenciones.es/bdnstrans/GE/es/convoca
- torias/904540\nComprueba siempre las bases oficiales. Subvenia
+ torias/904540\nComprueba siempre las bases oficiales. Fidera
 URL:https://www.impefe.es/Impefe/subvenciones/
 BEGIN:VALARM
 ACTION:DISPLAY

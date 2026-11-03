@@ -1,10 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Subvenia//Ayudas publicas//ES
+PRODID:-//Fidera//Ayudas publicas//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:933593@subvenia
+UID:933593@fidera
 DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
@@ -18,7 +18,7 @@ DESCRIPTION:100 % del gasto\, hasta 5.000 € por empresa en las líneas de
   y la sede electrónica antes de preparar nada.\nCómo pedirla: https://ww
  w.jccm.es/tramites\nFicha oficial (Fuente: BDNS): https://www.infosubvenci
  ones.es/bdnstrans/GE/es/convocatorias/933593\nComprueba siempre las bases 
- oficiales. Subvenia
+ oficiales. Fidera
 URL:https://www.jccm.es/tramites
 BEGIN:VALARM
 ACTION:DISPLAY

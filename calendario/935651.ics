@@ -1,10 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Subvenia//Ayudas publicas//ES
+PRODID:-//Fidera//Ayudas publicas//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:935651@subvenia
+UID:935651@fidera
 DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
@@ -15,7 +15,7 @@ DESCRIPTION:Hasta 1.820 € por empresa: 1.040 € por el viaje de una pers
  azo: Hasta el 9 de noviembre de 2026\nCómo pedirla: https://www.jccm.es/t
  ramites\nFicha oficial (Fuente: BDNS): https://www.infosubvenciones.es/bdn
  strans/GE/es/convocatorias/935651\nComprueba siempre las bases oficiales. 
- Subvenia
+ Fidera
 URL:https://www.jccm.es/tramites
 BEGIN:VALARM
 ACTION:DISPLAY

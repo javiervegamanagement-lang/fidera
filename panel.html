@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mi panel · Subvenia</title>
+<title>Mi panel · Fidera</title>
 <meta name="robots" content="noindex">
 <meta name="referrer" content="no-referrer">
 <link rel="stylesheet" href="estilo.css">
@@ -18,7 +18,7 @@
 </style>
 </head>
 <body>
-<header class="cabecera"><div class="envoltura"><a class="marca" href="./">Subvenia</a>
+<header class="cabecera"><div class="envoltura"><a class="marca" href="./">Fidera</a>
   <nav><a href="#" id="p-salir" hidden>Salir</a></nav></div></header>
 
 <section>
@@ -56,7 +56,7 @@
 </section>
 
 <footer class="pie"><div class="envoltura">
-  <p><b>Subvenia</b> · Fuente de los datos: BDNS (Base de Datos Nacional de Subvenciones). Información orientativa: mandan las bases oficiales.</p>
+  <p><b>Fidera</b> · Fuente de los datos: BDNS (Base de Datos Nacional de Subvenciones). Información orientativa: mandan las bases oficiales.</p>
   <p><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a></p>
 </div></footer>
 
@@ -76,8 +76,8 @@
     if (i >= 0) { const n = t.slice(0, i).trim(), a = t.slice(i + 1).trim(); if (a.length <= 4) t = a.endsWith("'") ? a + n : a + " " + n; }
     return t;
   };
-  const guarda = { leer: () => { try { return localStorage.getItem("subvenia-sesion"); } catch { return null; } },
-                   poner: (v) => { try { v ? localStorage.setItem("subvenia-sesion", v) : localStorage.removeItem("subvenia-sesion"); } catch {} } };
+  const guarda = { leer: () => { try { return localStorage.getItem("fidera-sesion"); } catch { return null; } },
+                   poner: (v) => { try { v ? localStorage.setItem("fidera-sesion", v) : localStorage.removeItem("fidera-sesion"); } catch {} } };
   const aviso = (t) => { $("p-aviso").textContent = t; $("p-aviso").hidden = !t; };
   const json = (ruta) => fetch(ruta).then((r) => (r.ok ? r.json() : null)).catch(() => null);
   let S = null;   // servicios.json
