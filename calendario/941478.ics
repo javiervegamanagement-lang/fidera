@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fidera//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:941478@fidera
+DTSTAMP:20270120T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Último día: Castilla-La Mancha: hasta 15.000 € para tu tienda o
+ nline
+DESCRIPTION:Línea 1: 70 % del gasto\, máx. 15.000 € por solicitud. Lín
+ ea 2: 50 % (micro y pequeña) o 40 % (mediana)\, máx. 120.000 € por sol
+ icitud. Bolsa total de 3.000.000 €.\nPlazo: Hasta el 20 de enero de 2027
+  (se cuenta desde el día siguiente a la publicación en el DOCM).\nCómo 
+ pedirla: https://www.jccm.es\nFicha oficial (Fuente: BDNS): https://www.in
+ fosubvenciones.es/bdnstrans/GE/es/convocatorias/941478\nComprueba siempre 
+ las bases oficiales. Fidera
+URL:https://www.jccm.es
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Castilla-La Mancha: hasta 15.000 €
+  para tu tienda online
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
