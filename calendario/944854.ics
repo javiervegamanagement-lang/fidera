@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fidera//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:944854@fidera
+DTSTAMP:20270129T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Último día: Ayudas a proyectos de difusión e investigación de a
+ rquitectura
+DESCRIPTION:Bolsa total de 3.000.000 € a repartir. El importe máximo por
+  proyecto lo fijan las bases reguladoras (consultar bases)\; pueden financ
+ iar solo una parte.\nPlazo: 40 días hábiles desde el día siguiente a la
+  publicación del extracto en el BOE (la ficha indica como fin el 29 de en
+ ero de 2027)\nCómo pedirla: https://mivau.sede.gob.es/\nFicha oficial (Fu
+ ente: BDNS): https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias
+ /944854\nComprueba siempre las bases oficiales. Fidera
+URL:https://mivau.sede.gob.es/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Ayudas a proyectos de difusión e in
+ vestigación de arquitectura
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

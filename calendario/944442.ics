@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fidera//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:944442@fidera
+DTSTAMP:20261218T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Último día: Mallorca: hasta 1.500 € para autónomos jóvenes (1
+ 8-30 años)
+DESCRIPTION:Hasta 1.500 € por persona (las bombillas\, máx. 500 €). Bo
+ lsa total de 150.000 €: si no llega\, se reduce todo en el mismo porcent
+ aje.\nPlazo: 15 días hábiles desde el día siguiente a su publicación e
+ n el BOIB. La ficha de la BDNS apunta al 18 de diciembre (empieza el 27 de
+  noviembre).\nCómo pedirla: https://seu.conselldemallorca.net/es/normativ
+ a_propia\nFicha oficial (Fuente: BDNS): https://www.infosubvenciones.es/bd
+ nstrans/GE/es/convocatorias/944442\nComprueba siempre las bases oficiales.
+  Fidera
+URL:https://seu.conselldemallorca.net/es/normativa_propia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Mallorca: hasta 1.500 € para autó
+ nomos jóvenes (18-30 años)
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Papeles: Ayudas a proyectos de difusión e investigación de arquitectura · Fidera</title>
+<style>
+:root { --verde: #0F5132; --gris: #5f6662; --borde: #DDE3E0; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #F3F5F4; color: #1d1d1d; font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+.hoja { max-width: 760px; margin: 24px auto; background: #fff; border: 1px solid var(--borde); border-radius: 14px; padding: 28px 32px; }
+.marca { color: var(--verde); font-weight: 800; font-size: 20px; text-decoration: none; }
+h1 { font-size: 26px; line-height: 1.25; margin: 14px 0 4px; }
+.organo { color: var(--gris); font-size: 14px; margin: 0 0 18px; }
+dl { display: grid; grid-template-columns: 130px 1fr; gap: 6px 10px; margin: 0 0 22px; }
+dt { color: var(--gris); }
+dd { margin: 0; font-weight: 600; }
+h2 { font-size: 19px; margin: 22px 0 10px; color: var(--verde); }
+ul.papeles { list-style: none; padding: 0; margin: 0; }
+ul.papeles li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--borde); }
+ul.papeles input { width: 22px; height: 22px; margin-top: 2px; flex: none; accent-color: var(--verde); }
+.consejo { background: #FFF8E1; border-left: 4px solid #F2B705; padding: 10px 14px; margin: 20px 0 0; }
+.enlaces a { color: var(--verde); word-break: break-all; }
+.botones { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0 0; }
+.boton { background: var(--verde); color: #fff; border: 0; border-radius: 10px; padding: 12px 18px; font-size: 16px; font-weight: 700; cursor: pointer; text-decoration: none; }
+.boton.claro { background: #E8F1EC; color: var(--verde); }
+.pie { color: var(--gris); font-size: 13px; margin: 26px 0 0; }
+@media (max-width: 600px) { .hoja { margin: 0; border-radius: 0; border: 0; padding: 20px 16px; } dl { grid-template-columns: 1fr; gap: 0; } dd { margin-bottom: 8px; } }
+@media print {
+  body { background: #fff; font-size: 12pt; }
+  .hoja { margin: 0; border: 0; padding: 0; max-width: none; }
+  .botones { display: none; }
+  ul.papeles input { -webkit-appearance: none; appearance: none; border: 1.5px solid #000; border-radius: 3px; }
+  a { color: #000; text-decoration: none; }
+  .enlaces a::after { content: " (" attr(href) ")"; font-size: 9pt; color: #333; }
+  .consejo { border: 1px solid #999; border-left: 4px solid #999; }
+}
+</style></head>
+<body><main class="hoja">
+<a class="marca" href="https://javiervegamanagement-lang.github.io/fidera/">● Fidera</a>
+<h1>Ayudas a proyectos de difusión e investigación de arquitectura</h1>
+<p class="organo">MINISTERIO DE VIVIENDA Y AGENDA URBANA · DIRECCIÓN GENERAL DE AGENDA URBANA Y ARQUITECTURA</p>
+<dl>
+  <dt>💶 Cuánto</dt><dd>Bolsa total de 3.000.000 € a repartir. El importe máximo por proyecto lo fijan las bases reguladoras (consultar bases); pueden financiar solo una parte.</dd>
+  <dt>📅 Plazo</dt><dd>40 días hábiles desde el día siguiente a la publicación del extracto en el BOE (la ficha indica como fin el 29 de enero de 2027)</dd>
+</dl>
+<h2>Antes de nada: ¿cumples esto?</h2><ul class="papeles"><li><input type="checkbox" id="r0"><label for="r0">¿Tienes residencia fiscal en España y estarás legalmente constituido cuando acabe el plazo?</label></li><li><input type="checkbox" id="r1"><label for="r1">¿Eres una entidad que no es administración pública ni empresa pública (o eres universidad)?</label></li></ul>
+<h2>Papeles que te van a pedir</h2>
+<ul class="papeles"><li><input type="checkbox" id="p0"><label for="p0">Memoria del proyecto y actividades previstas</label></li><li><input type="checkbox" id="p1"><label for="p1">Cuadro de ingresos y gastos que coincidan</label></li><li><input type="checkbox" id="p2"><label for="p2">Documentación que acredite si el IVA es deducible o no</label></li><li><input type="checkbox" id="p3"><label for="p3">Certificados de estar al corriente con Hacienda y Seguridad Social</label></li></ul>
+<p class="consejo">💡 Puedes presentar varias solicitudes, pero cada una con un proyecto distinto, sin solaparse.</p>
+<h2>Dónde pedirla</h2>
+<p class="enlaces">Solicitud: <a href="https://mivau.sede.gob.es/">https://mivau.sede.gob.es/</a><br>
+Ficha oficial (BDNS): <a href="https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/944854">https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/944854</a></p>
+<div class="botones">
+  <button class="boton" type="button" onclick="window.print()">🖨️ Imprimir</button>
+  <a class="boton claro" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%C3%9Altimo+d%C3%ADa%3A+Ayudas+a+proyectos+de+difusi%C3%B3n+e+investigaci%C3%B3n+de+arquitectura&amp;details=Bolsa+total+de+3.000.000+%E2%82%AC+a+repartir.+El+importe+m%C3%A1ximo+por+proyecto+lo+fijan+las+bases+reguladoras+%28consultar+bases%29%3B+pueden+financiar+solo+una+parte.%0APlazo%3A+40+d%C3%ADas+h%C3%A1biles+desde+el+d%C3%ADa+siguiente+a+la+publicaci%C3%B3n+del+extracto+en+el+BOE+%28la+ficha+indica+como+fin+el+29+de+enero+de+2027%29%0AC%C3%B3mo+pedirla%3A+https%3A%2F%2Fmivau.sede.gob.es%2F%0AFicha+oficial+%28Fuente%3A+BDNS%29%3A+https%3A%2F%2Fwww.infosubvenciones.es%2Fbdnstrans%2FGE%2Fes%2Fconvocatorias%2F944854%0AComprueba+siempre+las+bases+oficiales.+Fidera&amp;dates=20270129%2F20270130">📅 Añadir a mi calendario</a>
+</div>
+<p class="pie">Fuente: BDNS (Base de Datos Nacional de Subvenciones). Resumen hecho el 26 de noviembre de 2026. Información orientativa: la lista sale de
+las bases oficiales, pero mandan las bases. Compruébalas antes de presentar la solicitud.</p>
+</main></body></html>
